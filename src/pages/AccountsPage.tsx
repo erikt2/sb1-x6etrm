@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Building2, CreditCard, Plus, Wallet } from "lucide-react";
+import { Building2, CreditCard, Plus, Radar } from "lucide-react";
 import { OverviewCards } from "@/components/dashboard/OverviewCards";
 
 export default function AccountsPage() {
@@ -8,8 +8,8 @@ export default function AccountsPage() {
     <div className="p-4 space-y-6">
       <header className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-2">
-          <Wallet className="h-8 w-8 text-blue-600" />
-          <h1 className="text-2xl font-bold text-gray-900">FinanceFlow</h1>
+          <Radar className="h-8 w-8 text-orange-600" />
+          <h1 className="text-2xl font-bold text-gray-900">S.M.A.R.T Budget</h1>
         </div>
         <div className="flex gap-2">
           <Button variant="outline">
